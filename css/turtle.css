@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Add the colour codes here */
+    --line: #292421;
+    --turtle-green: #91bb65;
+    --turtle-shadow-1: #69957c;
+    --turtle-shadow-2: #4e5e5b;
+    --turtle-highlight-1: #e7a350;
+    --turtle-shell: #784331;
+    --turtle-shell-shadow-1: #5f301e;
+    --turtle-shell-shadow-2: #633535;
+    --turtle-shell-highlight-1: #a87643;
+    --turtle-shell-highlight-2: #c7945d;
+}
+
+.turtle {
+    margin-top: 3vmin;
+    margin-left: 5vmin;
+    font-size: .45vmin;
+    height: 1em;
+    width: 1em;
+    box-shadow: 
+        /* Where the design goes (32px wide) */
+
+        /* OUTLINE */
+        16em 0 var(--line), 17em 0 var(--line), 18em 0 var(--line), 19em 0 var(--line), 20em 0 var(--line),
+        13em 1em var(--line), 14em 1em var(--line), 15em 1em var(--line), 21em 1em var(--line), 22em 1em var(--line), 23em 1em var(--line),
+        11em 2em var(--line), 12em 2em var(--line), 24em 2em var(--line), 25em 2em var(--line),
+        10em 3em var(--line), 26em 3em var(--line),
+        9em 4em var(--line), 27em 4em var(--line),
+        2em 5em var(--line), 3em 5em var(--line), 4em 5em var(--line), 5em 5em var(--line), 7em 5em var(--line), 8em 5em var(--line), 28em 5em var(--line),
+        1em 6em var(--line), 6em 6em var(--line), 7em 6em var(--line), 28em 6em var(--line),
+        0 7em var(--line), 7em 7em var(--line), 28em 7em var(--line),
+        0 8em var(--line), 7em 8em var(--line), 8em 8em var(--line), 29em 8em var(--line),
+        0 9em var(--line), 8em 9em var(--line), 9em 9em var(--line), 29em 9em var(--line),
+        1em 10em var(--line), 10em 10em var(--line), 11em 10em var(--line), 30em 10em var(--line),
+        2em 11em var(--line), 3em 11em var(--line), 4em 11em var(--line), 5em 11em var(--line), 12em 11em var(--line), 30em 11em var(--line),
+        6em 12em var(--line), 12em 12em var(--line), 13em 12em var(--line), 29em 12em var(--line),
+        7em 13em var(--line), 14em 13em var(--line), 28em 13em var(--line),
+        8em 14em var(--line), 14em 14em var(--line), 15em 14em var(--line), 29em 14em var(--line),
+        8em 15em var(--line), 13em 15em var(--line), 16em 15em var(--line), 17em 15em var(--line), 18em 15em var(--line), 19em 15em var(--line), 20em 15em var(--line), 21em 15em var(--line), 22em 15em var(--line), 23em 15em var(--line), 24em 15em var(--line), 30em 15em var(--line),
+        7em 16em var(--line), 12em 16em var(--line), 25em 16em var(--line), 26em 16em var(--line), 27em 16em var(--line), 28em 16em var(--line), 31em 16em var(--line),
+        7em 17em var(--line), 11em 17em var(--line), 27em 17em var(--line), 30em 17em var(--line), 31em 17em var(--line),
+        8em 18em var(--line), 9em 18em var(--line), 10em 18em var(--line), 28em 18em var(--line), 29em 18em var(--line), 30em 18em var(--line),
+
+        /* EYE */
+        3em 7em var(--line),
+        3em 8em var(--line),
+
+        /* TURTLE HIGHLIGHT */
+        4em 8em var(--turtle-highlight-1), 5em 8em var(--turtle-highlight-1),
+        4em 9em var(--turtle-highlight-1), 5em 9em var(--turtle-highlight-1),
+        
+        /* GREEN */
+        2em 6em var(--turtle-green), 3em 6em var(--turtle-green), 4em 6em var(--turtle-green),
+        1em 7em var(--turtle-green), 2em 7em var(--turtle-green), 4em 7em var(--turtle-green), 5em 7em var(--turtle-green),
+        1em 8em var(--turtle-green), 2em 8em var(--turtle-green), 6em 8em var(--turtle-green),
+        1em 9em var(--turtle-green), 2em 9em var(--turtle-green), 3em 9em var(--turtle-green), 6em 9em var(--turtle-green),
+        3em 10em var(--turtle-green), 4em 10em var(--turtle-green),
+        10em 12em var(--turtle-green), 11em 12em var(--turtle-green),
+        9em 13em var(--turtle-green), 10em 13em var(--turtle-green), 11em 13em var(--turtle-green),
+        9em 14em var(--turtle-green), 10em 14em var(--turtle-green), 26em 14em var(--turtle-green),
+        25em 15em var(--turtle-green), 26em 15em var(--turtle-green), 27em 15em var(--turtle-green),
+        
+        /* GREEN SHADOW 1 */
+        5em 6em var(--turtle-shadow-1),
+        2em 10em var(--turtle-shadow-1), 5em 10em var(--turtle-shadow-1), 6em 10em var(--turtle-shadow-1),
+        7em 11em var(--turtle-shadow-1),
+        7em 12em var(--turtle-shadow-1), 8em 12em var(--turtle-shadow-1),
+        8em 13em var(--turtle-shadow-1), 12em 13em var(--turtle-shadow-1), 27em 13em var(--turtle-shadow-1),
+        11em 14em var(--turtle-shadow-1), 12em 14em var(--turtle-shadow-1), 27em 14em var(--turtle-shadow-1), 28em 14em var(--turtle-shadow-1),
+        9em 15em var(--turtle-shadow-1), 10em 15em var(--turtle-shadow-1), 11em 15em var(--turtle-shadow-1), 12em 15em var(--turtle-shadow-1), 28em 15em var(--turtle-shadow-1), 29em 15em var(--turtle-shadow-1),
+        8em 16em var(--turtle-shadow-1), 9em 16em var(--turtle-shadow-1), 10em 16em var(--turtle-shadow-1), 29em 16em var(--turtle-shadow-1), 30em 16em var(--turtle-shadow-1),
+        28em 17em var(--turtle-shadow-1),
+        
+        /* GREEN SHADOW 2 */
+        6em 7em var(--turtle-shadow-2),
+        7em 9em var(--turtle-shadow-2),
+        7em 10em var(--turtle-shadow-2), 8em 10em var(--turtle-shadow-2), 9em 10em var(--turtle-shadow-2),
+        6em 11em var(--turtle-shadow-2), 8em 11em var(--turtle-shadow-2), 9em 11em var(--turtle-shadow-2), 10em 11em var(--turtle-shadow-2), 11em 11em var(--turtle-shadow-2),
+        9em 12em var(--turtle-shadow-2),
+        13em 13em var(--turtle-shadow-2),
+        13em 14em var(--turtle-shadow-2),
+        11em 16em var(--turtle-shadow-2),
+        8em 17em var(--turtle-shadow-2), 9em 17em var(--turtle-shadow-2), 10em 17em var(--turtle-shadow-2), 29em 17em var(--turtle-shadow-2),
+
+        /* SHELL */
+        15em 2em var(--turtle-shell), 19em 2em var(--turtle-shell), 20em 2em var(--turtle-shell), 21em 2em var(--turtle-shell),
+        15em 3em var(--turtle-shell), 16em 3em var(--turtle-shell), 18em 3em var(--turtle-shell), 19em 3em var(--turtle-shell), 20em 3em var(--turtle-shell), 25em 3em var(--turtle-shell),
+        10em 4em var(--turtle-shell), 13em 4em var(--turtle-shell), 14em 4em var(--turtle-shell), 15em 4em var(--turtle-shell), 23em 4em var(--turtle-shell), 24em 4em var(--turtle-shell), 25em 4em var(--turtle-shell), 26em 4em var(--turtle-shell),
+        10em 5em var(--turtle-shell), 11em 5em var(--turtle-shell), 12em 5em var(--turtle-shell), 13em 5em var(--turtle-shell), 14em 5em var(--turtle-shell), 19em 5em var(--turtle-shell), 23em 5em var(--turtle-shell), 24em 5em var(--turtle-shell), 25em 5em var(--turtle-shell), 26em 5em var(--turtle-shell),
+        10em 6em var(--turtle-shell), 11em 6em var(--turtle-shell), 19em 6em var(--turtle-shell), 21em 6em var(--turtle-shell), 22em 6em var(--turtle-shell), 27em 6em var(--turtle-shell),
+        12em 7em var(--turtle-shell), 13em 7em var(--turtle-shell), 14em 7em var(--turtle-shell), 18em 7em var(--turtle-shell), 19em 7em var(--turtle-shell), 20em 7em var(--turtle-shell), 21em 7em var(--turtle-shell), 22em 7em var(--turtle-shell), 24em 7em var(--turtle-shell), 25em 7em var(--turtle-shell), 26em 7em var(--turtle-shell), 27em 7em var(--turtle-shell),
+        12em 8em var(--turtle-shell), 13em 8em var(--turtle-shell), 14em 8em var(--turtle-shell), 16em 8em var(--turtle-shell), 17em 8em var(--turtle-shell), 18em 8em var(--turtle-shell), 20em 8em var(--turtle-shell), 21em 8em var(--turtle-shell), 22em 8em var(--turtle-shell), 24em 8em var(--turtle-shell), 25em 8em var(--turtle-shell), 26em 8em var(--turtle-shell), 27em 8em var(--turtle-shell), 28em 8em var(--turtle-shell),
+        13em 9em var(--turtle-shell), 14em 9em var(--turtle-shell), 15em 9em var(--turtle-shell), 18em 9em var(--turtle-shell), 19em 9em var(--turtle-shell), 20em 9em var(--turtle-shell), 21em 9em var(--turtle-shell), 23em 9em var(--turtle-shell), 24em 9em var(--turtle-shell), 25em 9em var(--turtle-shell), 26em 9em var(--turtle-shell),
+        18em 10em var(--turtle-shell), 19em 10em var(--turtle-shell), 20em 10em var(--turtle-shell), 22em 10em var(--turtle-shell), 27em 10em var(--turtle-shell), 28em 10em var(--turtle-shell), 29em 10em var(--turtle-shell),
+        15em 11em var(--turtle-shell), 16em 11em var(--turtle-shell), 17em 11em var(--turtle-shell), 22em 11em var(--turtle-shell), 23em 11em var(--turtle-shell), 24em 11em var(--turtle-shell), 25em 11em var(--turtle-shell), 26em 11em var(--turtle-shell), 28em 11em var(--turtle-shell),
+        18em 12em var(--turtle-shell), 19em 12em var(--turtle-shell), 20em 12em var(--turtle-shell), 21em 12em var(--turtle-shell), 23em 12em var(--turtle-shell), 24em 12em var(--turtle-shell), 25em 12em var(--turtle-shell), 26em 12em var(--turtle-shell),
+        21em 14em var(--turtle-shell), 22em 14em var(--turtle-shell),
+
+        /* SHELL SHADOW 1 */
+        16em 1em var(--turtle-shell-shadow-1),
+        16em 2em var(--turtle-shell-shadow-1), 22em 2em var(--turtle-shell-shadow-1),
+        17em 3em var(--turtle-shell-shadow-1), 21em 3em var(--turtle-shell-shadow-1),
+        15em 4em var(--turtle-shell-shadow-1), 16em 4em var(--turtle-shell-shadow-1), 17em 4em var(--turtle-shell-shadow-1), 18em 4em var(--turtle-shell-shadow-1), 19em 4em var(--turtle-shell-shadow-1), 20em 4em var(--turtle-shell-shadow-1), 21em 4em var(--turtle-shell-shadow-1), 22em 4em var(--turtle-shell-shadow-1),
+        9em 5em var(--turtle-shell-shadow-1), 15em 5em var(--turtle-shell-shadow-1), 22em 5em var(--turtle-shell-shadow-1), 27em 5em var(--turtle-shell-shadow-1),
+        9em 6em var(--turtle-shell-shadow-1), 12em 6em var(--turtle-shell-shadow-1), 13em 6em var(--turtle-shell-shadow-1), 14em 6em var(--turtle-shell-shadow-1), 15em 6em var(--turtle-shell-shadow-1), 23em 6em var(--turtle-shell-shadow-1), 24em 6em var(--turtle-shell-shadow-1), 25em 6em var(--turtle-shell-shadow-1), 26em 6em var(--turtle-shell-shadow-1),
+        10em 7em var(--turtle-shell-shadow-1), 11em 7em var(--turtle-shell-shadow-1), 15em 7em var(--turtle-shell-shadow-1), 23em 7em var(--turtle-shell-shadow-1),
+        11em 8em var(--turtle-shell-shadow-1), 15em 8em var(--turtle-shell-shadow-1), 23em 8em var(--turtle-shell-shadow-1),
+        12em 9em var(--turtle-shell-shadow-1), 16em 9em var(--turtle-shell-shadow-1), 22em 9em var(--turtle-shell-shadow-1),
+        13em 10em var(--turtle-shell-shadow-1), 14em 10em var(--turtle-shell-shadow-1), 15em 10em var(--turtle-shell-shadow-1), 16em 10em var(--turtle-shell-shadow-1), 17em 10em var(--turtle-shell-shadow-1), 21em 10em var(--turtle-shell-shadow-1), 23em 10em var(--turtle-shell-shadow-1), 24em 10em var(--turtle-shell-shadow-1), 25em 10em var(--turtle-shell-shadow-1), 26em 10em var(--turtle-shell-shadow-1),
+        14em 11em var(--turtle-shell-shadow-1), 18em 11em var(--turtle-shell-shadow-1), 19em 11em var(--turtle-shell-shadow-1), 20em 11em var(--turtle-shell-shadow-1), 21em 11em var(--turtle-shell-shadow-1), 27em 11em var(--turtle-shell-shadow-1),
+        14em 12em var(--turtle-shell-shadow-1), 15em 12em var(--turtle-shell-shadow-1), 16em 12em var(--turtle-shell-shadow-1), 22em 12em var(--turtle-shell-shadow-1), 27em 12em var(--turtle-shell-shadow-1), 28em 12em var(--turtle-shell-shadow-1),
+        17em 13em var(--turtle-shell-shadow-1), 18em 13em var(--turtle-shell-shadow-1), 19em 13em var(--turtle-shell-shadow-1), 20em 13em var(--turtle-shell-shadow-1), 21em 13em var(--turtle-shell-shadow-1), 22em 13em var(--turtle-shell-shadow-1), 23em 13em var(--turtle-shell-shadow-1), 24em 13em var(--turtle-shell-shadow-1), 25em 13em var(--turtle-shell-shadow-1), 26em 13em var(--turtle-shell-shadow-1),
+        25em 14em var(--turtle-shell-shadow-1),
+
+        /* SHELL SHADOW 2 */
+        27em 9em var(--turtle-shell-shadow-2), 28em 9em var(--turtle-shell-shadow-2),
+        29em 11em var(--turtle-shell-shadow-2),
+        17em 12em var(--turtle-shell-shadow-2),
+        24em 14em var(--turtle-shell-shadow-2),
+
+        /* SHELL HIGHLIGHT 1 */
+        19em 1em var(--turtle-shell-highlight-1), 20em 1em var(--turtle-shell-highlight-1),
+        14em 2em var(--turtle-shell-highlight-1), 17em 2em var(--turtle-shell-highlight-1), 18em 2em var(--turtle-shell-highlight-1), 23em 2em var(--turtle-shell-highlight-1),
+        13em 3em var(--turtle-shell-highlight-1), 14em 3em var(--turtle-shell-highlight-1), 22em 3em var(--turtle-shell-highlight-1), 23em 3em var(--turtle-shell-highlight-1), 24em 3em var(--turtle-shell-highlight-1),
+        11em 4em var(--turtle-shell-highlight-1), 12em 4em var(--turtle-shell-highlight-1),
+        18em 5em var(--turtle-shell-highlight-1), 20em 5em var(--turtle-shell-highlight-1), 21em 5em var(--turtle-shell-highlight-1),
+        8em 6em var(--turtle-shell-highlight-1), 17em 6em var(--turtle-shell-highlight-1), 18em 6em var(--turtle-shell-highlight-1), 20em 6em var(--turtle-shell-highlight-1),
+        9em 7em var(--turtle-shell-highlight-1), 16em 7em var(--turtle-shell-highlight-1), 17em 7em var(--turtle-shell-highlight-1),
+        10em 8em var(--turtle-shell-highlight-1), 19em 8em var(--turtle-shell-highlight-1),
+        11em 9em var(--turtle-shell-highlight-1), 17em 9em var(--turtle-shell-highlight-1),
+        12em 10em var(--turtle-shell-highlight-1),
+        13em 11em var(--turtle-shell-highlight-1),
+        16em 13em var(--turtle-shell-highlight-1),
+        18em 14em var(--turtle-shell-highlight-1), 19em 14em var(--turtle-shell-highlight-1), 20em 14em var(--turtle-shell-highlight-1), 23em 14em var(--turtle-shell-highlight-1),
+
+        /* SHELL HIGHLIGHT 2 */
+        17em 1em var(--turtle-shell-highlight-2), 18em 1em var(--turtle-shell-highlight-2),
+        13em 2em var(--turtle-shell-highlight-2),
+        11em 3em var(--turtle-shell-highlight-2), 12em 3em var(--turtle-shell-highlight-2),
+        16em 5em var(--turtle-shell-highlight-2), 17em 5em var(--turtle-shell-highlight-2),
+        16em 6em var(--turtle-shell-highlight-2),
+        8em 7em var(--turtle-shell-highlight-2),
+        9em 8em var(--turtle-shell-highlight-2),
+        10em 9em var(--turtle-shell-highlight-2),
+        15em 13em var(--turtle-shell-highlight-2),
+        16em 14em var(--turtle-shell-highlight-2), 17em 14em var(--turtle-shell-highlight-2);
+}

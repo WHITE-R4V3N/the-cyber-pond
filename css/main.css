@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Asimovian';
+  src: url('../fonts/Asimovian-Regular.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bg: #A9C5D3ff;
+    --panel: #2A5043ff;
+    --text: #708759ff;
+
+    --antiflash-white: #EFEFF1ff;
+    --brunswick-green: #2A5043ff;
+    --reseda-green: #708759ff;
+    --burnt-sienna: #C8765Aff;
+    --melon: #E1A899ff;
+    --glaucous: #5375A8ff;
+    --moonstone: #64A3B5ff;
+    --columbia-blue: #A9C5D3ff;
+}
+
+body {
+    background: var(--bg);
+    height: 100vh;
+    width: 100vw;
+}
+
+/* HEADER */
+
+header {
+    background: var(--panel);
+    padding: 1vmin;
+    padding-bottom: 5vmin;
+}
+
+h2 {
+    padding-left: 20vmin;
+    padding-top: 1vmin;
+    font-family: 'Asimovian';
+    font-size: 5vmin;
+    color: var(--text);
+}
+
+nav {
+    display: inline;
+    float: right;
+}
+
+/* MAIN */
