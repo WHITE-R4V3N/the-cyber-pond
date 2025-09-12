@@ -6,23 +6,90 @@
         <title>The Cyber Pond</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/turtle.css">
+        <link rel="stylesheet" href="css/card-art.css">
+        <link rel="stylesheet" href="css/pond.css">
     </head>
     <body>
         <header>
             <div class="container">
                 <div class="turtle"></div>
                 <h2>THE CYBER POND</h2>
-                <!--<nav>
-                    <ul>
-                        <a href="#">Home</a>
-                        <button class="btn toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
-                    </ul>
-                </nav>-->
+                <img class="sound-image" id="sound-image" src="images/music_off.png" onclick="toggle_mute()">
             </div>
         </header>
+        <audio loop autoplay muted id="pond-audio" class="pond-audio">
+            <source src="sounds/pond_audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <script src="scripts/audio.js"></script>
 
         <main class="container">
-            
+            <div class="lock-screen" id="lock-screen">
+                <!-- NO BODY WILL FIND THE PASSWORD HERE: turtle -->
+                <header>
+                    <div class="container">
+                        <div class="turtle"></div>
+                        <h2>THE CYBER POND</h2>
+                        <img class="sound-image" id="sound-image" src="images/music_off.png" onclick="toggle_mute()">
+                    </div>
+                </header>
+                <div class="page-overlay" id="page-overlay">
+                    <div class="pond"></div>
+                    <div class="pass-digits">
+                        <input type="password" maxlength="1" autofocus>
+                        <input type="password" maxlength="1">
+                        <input type="password" maxlength="1">
+                        <input type="password" maxlength="1">
+                        <input type="password" maxlength="1">
+                        <input type="password" maxlength="1">
+                    </div>
+                    <!-- <button class="enter-pass-btn" id="enter-pass-btn">Unlock</button> -->
+                </div>
+                <script src="scripts/unlock.js"></script>
+            </div>
+
+            <div class="p-search">
+                <div class="controls">
+                    <input id="search" type="search" placeholder="Search by title or description..." autocomplete="off" />
+
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <select id="sortSelect" aria-label="Sort projects">
+                    <option value="az" selected>Sort: Title A → Z</option>
+                    <option value="za">Sort: Title Z → A</option>
+                    <option value="new">Sort: Newest</option>
+                    <option value="old">Sort: Oldest</option>
+                </select>
+
+                <div class="tag-row" id="tagRow" aria-label="Filter by tags"></div>
+            </div>
+
+            <div class="project-cards">
+                <section class="grid" id="grid">
+                    <article class="card" data-title="5 Internet Safety Tips" data-tags="Tips,Cyber Security" data-date="2025-09-10">
+                        <div class="thumb" aria-hidden="true">
+                            <img src="images/attacker-execute-malware-through-a-script.png"/>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-art"></div>
+                            <div class="title">5 Internet Safety Tips</div>
+                            <hr>
+                            <p class="desc">Most cyber attacks don't need high-tech skills. Just people making small mistakes with big consequences.</p>
+                            <br/>
+                            <div class="chips">
+                                <span class="chip">Tips</span>
+                                <span class="chip">Cyber Security</span>
+                            </div>
+                            <div class="actions">
+                                <a href="#">Continue Reading ></a>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
         </main>
+        <script src="scripts/main.js"></script>
     </body>
 </html>

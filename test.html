@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Overlay</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Overlay */
+    #overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      z-index: 9999;
+    }
+
+    .inputs {
+      display: flex;
+      gap: 10px;
+    }
+
+    .inputs input {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 24px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #main-content {
+      display: none;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="overlay">
+  <h2>Enter Password</h2>
+  <div class="inputs">
+    <input type="password" maxlength="1" />
+    <input type="password" maxlength="1" />
+    <input type="password" maxlength="1" />
+    <input type="password" maxlength="1" />
+  </div>
+  <button id="unlock">Unlock</button>
+</div>
+
+<div id="main-content">
+  <h1>Welcome to the Main Site 🎉</h1>
+  <p>This is your protected content.</p>
+</div>
+
+<script>
+  const inputs = document.querySelectorAll('.pass-digits input');
+  const unlockBtn = document.getElementById('enter-pass-btn');
+  const overlay = document.getElementById('page-overlay');
+
+  // Define your easy password
+  const correctPassword = "turtle";
+
+  // Auto move to next input
+  inputs.forEach((input, index) => {
+    input.addEventListener('input', () => {
+      if (input.value.length === 1 && index < inputs.length - 1) {
+        inputs[index + 1].focus();
+      }
+    });
+
+    // Allow backspace to go to previous field
+    input.addEventListener('keydown', (e) => {
+      if (e.key === "Backspace" && input.value === "" && index > 0) {
+        inputs[index - 1].focus();
+      }
+    });
+  });
+
+  // Unlock button
+  unlockBtn.addEventListener('click', () => {
+    let enteredPassword = "";
+    inputs.forEach(input => {
+      enteredPassword += input.value;
+    });
+
+    if (enteredPassword === correctPassword) {
+      overlay.style.display = "none";
+      mainContent.style.display = "block";
+    } else {
+      alert("Incorrect password. Try again!");
+      inputs.forEach(input => input.value = ""); // clear inputs
+      inputs[0].focus();
+    }
+  });
+</script>
+
+</body>
+</html>

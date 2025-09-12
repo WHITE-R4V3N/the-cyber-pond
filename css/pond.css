@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Add the colour codes here */
+    --line: #292421ff;
+    --leaf-green-1: #91bb65ff;
+    --leaf-green-2: #69957cff;
+    --leaf-shadow: #4e5e5bff;
+    --flower-petal: #e7a350ff;
+    --flower-centre: #fcf3e9ff;
+
+    --water-main: #A9C5D3ff;
+    --water-light: #EFEFF1ff;
+    --water-dark: #64A3B5ff;
+    --water-shadow: #5375A8ff;
+
+    --reeds-main: #69957cff;
+    --reeds-light: #91bb65ff;
+    --reeds-dark: #4e5e5bff;
+    --reeds-top-main: #784331ff;
+    --reeds-top-light: #a87643;
+    --reeds-top-dark: #633535ff;
+
+    /* Sort and Organize */
+    --antiflash-white: #EFEFF1ff;
+    --brunswick-green: #2A5043ff;
+    --reseda-green: #708759ff;
+    --burnt-sienna: #C8765Aff;
+    --melon: #E1A899ff;
+    --glaucous: #5375A8ff;
+    --moonstone: #64A3B5ff;
+    --columbia-blue: #A9C5D3ff;
+}
+
+.pond {
+    font-size: .45vmin;
+    height: 1em;
+    width: 1em;
+    box-shadow: 1em 0em var(--line),
+    
+    /* POND WATER */
+    0em 3em var(--water-dark)
+    
+    ;
+}
