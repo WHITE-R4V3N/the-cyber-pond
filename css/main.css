@@ -70,7 +70,7 @@ a:hover {
 
 header {
     background: var(--panel);
-    padding: 3vmin;
+    padding: 2vmin;
     z-index: 9999;
 }
 
@@ -102,7 +102,7 @@ main {
 
 .page-overlay {
     position: fixed;
-    background-color: #c2c286 /* was --bg */;
+    background-color: rgb(186, 212, 160) /* was --bg */;
     z-index: 9999;
     display: flex;
     justify-content: center;
@@ -240,6 +240,13 @@ input[type="search"] {
 .actions {
     margin-top: 2vmin;
     text-align: center;
+}
+
+.empty {
+    text-align: center;
+    padding: 40px 16px;
+    color: var(--muted);
+    display: none;
 }
 
 /*

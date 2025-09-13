@@ -39,10 +39,42 @@
     font-size: .45vmin;
     height: 1em;
     width: 1em;
-    box-shadow: 1em 0em var(--line),
+    box-shadow:
     
     /* POND WATER */
-    0em 3em var(--water-dark)
+    0em 9em var(--water-dark), -1em 9em var(--water-dark), -2em 9em var(--water-dark), -18em 9em var(--water-dark), -19em 9em var(--water-dark), -20em 9em var(--water-dark),
+    -3em 10em var(--water-dark), -4em 10em var(--water-dark), -16em 10em var(--water-dark), -17em 10em var(--water-dark), -31em 10em var(--water-dark), -32em 10em var(--water-dark), -33em 10em var(--water-dark), -34em 10em var(--water-dark), -35em 10em var(--water-dark),
+    -47em 11em var(--water-dark), -48em 11em var(--water-dark),
+    -49em 12em var(--water-dark), -50em 12em var(--water-dark), -51em 12em var(--water-dark), -52em 12em var(--water-dark), -53em 12em var(--water-dark), -54em 12em var(--water-dark), -55em 12em var(--water-dark),
+    -56em 13em var(--water-dark), -57em 13em var(--water-dark),
+    -58em 14em var(--water-dark), 
+    -59em 15em var(--water-dark),
+    -60em 16em var(--water-dark), -61em 16em var(--water-dark), -62em 16em var(--water-dark),
+    -63em 17em var(--water-dark),
+    -64em 18em var(--water-dark),
+    -64em 19em var(--water-dark),
+    -65em 20em var(--water-dark), -66em 20em var(--water-dark), -67em 20em var(--water-dark), -68em 20em var(--water-dark), -69em 20em var(--water-dark),
+    -70em 21em var(--water-dark), -71em 21em var(--water-dark),
+    -72em 22em var(--water-dark),
+    -73em 23em var(--water-dark),
+    -73em 24em var(--water-dark),
+    -74em 25em var(--water-dark),
+    -74em 26em var(--water-dark),
+    -73em 27em var(--water-dark),
+    -73em 28em var(--water-dark),
+    -73em 29em var(--water-dark),
+    -72em 30em var(--water-dark),
+    -71em 31em var(--water-dark), -70em 31em var(--water-dark), -69em 31em var(--water-dark), -68em 31em var(--water-dark),
+    -67em 32em var(--water-dark),
+    -66em 33em var(--water-dark), -65em 33em var(--water-dark),
+    -64em 34em var(--water-dark),
+    -63em 35em var(--water-dark),
+    -63em 36em var(--water-dark),
+    -62em 37em var(--water-dark),
+    -61em 38em var(--water-dark), -60em 38em var(--water-dark), -59em 38em var(--water-dark), -47em 38em var(--water-dark), -46em 38em var(--water-dark), 
+    -58em 39em var(--water-dark), -57em 39em var(--water-dark), -56em 39em var(--water-dark), -55em 39em var(--water-dark), -49em 39em var(--water-dark), -48em 39em var(--water-dark), -45em 39em var(--water-dark), -40em 39em var(--water-dark), -39em 39em var(--water-dark), -38em 39em var(--water-dark), -37em 39em var(--water-dark), -36em 39em var(--water-dark), -35em 39em var(--water-dark), 
+    -54em 40em var(--water-dark), -53em 40em var(--water-dark), -52em 40em var(--water-dark), -51em 40em var(--water-dark), -50em 40em var(--water-dark), -44em 40em var(--water-dark), -43em 40em var(--water-dark), -42em 40em var(--water-dark), -41em 40em var(--water-dark), -34em 40em var(--water-dark), -33em 40em var(--water-dark), -32em 40em var(--water-dark), -31em 40em var(--water-dark)
+
     
     ;
 }
