@@ -13,7 +13,7 @@
     --flower-centre: #fcf3e9ff;
 
     --water-main: #A9C5D3ff;
-    --water-light: #EFEFF1ff;
+    --water-light: /*#EFEFF1ff*/#cee3ee60;
     --water-dark: #64A3B5ff;
     --water-shadow: #5375A8ff;
 
@@ -126,9 +126,25 @@
         -7em -20em var(--reeds-top-light),
         -2em -26em var(--reeds-top-light),
         -2em -27em var(--reeds-top-light),
-        -2em -28em var(--reeds-top-light)
+        -2em -28em var(--reeds-top-light),
         
         /* Add some pixels for a water like effect */
+        10em -2em var(--water-dark), 11em -2em var(--water-dark),
+        8em -1em var(--water-dark), 9em -1em var(--water-dark), 10em -1em var(--water-dark), 18em -1em var(--water-dark), 19em -1em var(--water-dark), 20em -1em var(--water-dark), 
+        7em 0em var(--water-dark), 8em 0em var(--water-dark), 9em 0em var(--water-dark),
+        2em 2em var(--water-dark), 1em 2em var(--water-dark),
+
+        11em -1em var(--water-main), 12em -1em var(--water-main),
+        12em -2em var(--water-main), 13em -2em var(--water-main), 17em -2em var(--water-main), 18em -2em var(--water-main),
+        13em -3em var(--water-main), 14em -3em var(--water-main),
+        4em 3em var(--water-main),
+        4em 2em var(--water-main), 3em 2em var(--water-main),
+        -2em 1em var(--water-main),
+
+        14em -2em var(--water-light), 15em -2em var(--water-light), 16em -2em var(--water-light),
+        15em -3em var(--water-light), 16em -3em var(--water-light),
+        6em 3em var(--water-light), 5em 3em var(--water-light),
+        1em 1em var(--water-light), 0em 1em var(--water-light), -1em 1em var(--water-light)
 
         ;
 }
