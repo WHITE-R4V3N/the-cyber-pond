@@ -1,0 +1,13 @@
+/* The css for the mouse ripples */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --water-main: #A9C5D3ff;
+    --water-light: #cee3eeff;
+    --water-dark: #64A3B5ff;
+    --water-shadow: #5375A8ff;
+}

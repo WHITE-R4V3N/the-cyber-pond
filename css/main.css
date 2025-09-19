@@ -130,9 +130,9 @@ main {
 .pass-digits input {
     border: none;
     text-align: center;
-    width: 5vmin;
-    height: 7vmin;
-    font-size: 3vmin;
+    width: 7vmin;
+    height: 9vmin;
+    font-size: 4vmin;
     font-weight: 700;
     background-color: var(--text);
     margin-right: 2vmin;
@@ -143,17 +143,6 @@ main {
 .pass-digits input:focus {
     border-bottom: .35vmin solid var(--panel);
     outline: none;
-}
-
-.enter-pass-btn {
-    font: inherit;
-    font-weight: 500;
-    color: var(--antiflash-white);
-    background: var(--text);
-    border: .25vmin solid var(--panel);
-    border-radius: 12px;
-    padding: 10px 12px;
-    margin: 1vmin;
 }
 
 div.p-search {
