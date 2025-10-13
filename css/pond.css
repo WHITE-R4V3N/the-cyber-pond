@@ -50,31 +50,16 @@
 
     -121em 126em var(--black),
     
-    -122em 119em var(--koi-main), -121em 119em var(--koi-main),
-    -124em 120em var(--koi-main), -123em 120em var(--koi-main), -122em 120em var(--koi-main), -121em 120em var(--koi-main), -120em 120em var(--koi-main),
-    -128em 121em var(--koi-main), -123em 121em var(--koi-main), -122em 121em var(--koi-main), -121em 121em var(--koi-main), -120em 121em var(--koi-main), 
-    -122em 122em var(--koi-main), -121em 122em var(--koi-main), -120em 122em var(--koi-main),
-    -122em 123em var(--koi-main), -121em 123em var(--koi-main), -120em 123em var(--koi-main),
-    -122em 124em var(--koi-main), -121em 124em var(--koi-main),
-    -133em 125em var(--koi-main), -123em 125em var(--koi-main), -122em 125em var(--koi-main), 
-    -134em 126em var(--koi-main), -123em 126em var(--koi-main),
-    -133em 127em var(--koi-main), -123em 127em var(--koi-main),
-
-    -119em 121em var(--koi-dark),
-    -119em 122em var(--koi-dark),
-    -119em 123em var(--koi-dark),
-    -120em 124em var(--koi-dark),
-    -121em 125em var(--koi-dark), -120em 125em var(--koi-dark),
-    -122em 126em var(--koi-dark),
-    -122em 127em var(--koi-dark), -121em 127em var(--koi-dark),
-
-    -127em 121em var(--koi-highlight), -126em 121em var(--koi-highlight), -125em 121em var(--koi-highlight), -124em 121em var(--koi-highlight),
-    -129em 122em var(--koi-highlight), -128em 122em var(--koi-highlight), -127em 122em var(--koi-highlight), -126em 122em var(--koi-highlight), -125em 122em var(--koi-highlight), -124em 122em var(--koi-highlight), -123em 122em var(--koi-highlight),
-    -130em 123em var(--koi-highlight), -129em 123em var(--koi-highlight), -128em 123em var(--koi-highlight), -127em 123em var(--koi-highlight), -126em 123em var(--koi-highlight), -125em 123em var(--koi-highlight), -124em 123em var(--koi-highlight), -123em 123em var(--koi-highlight),
-    -132em 124em var(--koi-highlight), -131em 124em var(--koi-highlight), -130em 124em var(--koi-highlight), -129em 124em var(--koi-highlight), -128em 124em var(--koi-highlight), -127em 124em var(--koi-highlight), -126em 124em var(--koi-highlight), -125em 124em var(--koi-highlight), -124em 124em var(--koi-highlight), -123em 124em var(--koi-highlight),
-    -132em 125em var(--koi-highlight), -131em 125em var(--koi-highlight), -130em 125em var(--koi-highlight), -129em 125em var(--koi-highlight), -128em 125em var(--koi-highlight), -127em 125em var(--koi-highlight), -126em 125em var(--koi-highlight), -125em 125em var(--koi-highlight), -124em 125em var(--koi-highlight),
-    -133em 126em var(--koi-highlight), -132em 126em var(--koi-highlight), -131em 126em var(--koi-highlight), -130em 126em var(--koi-highlight), -129em 126em var(--koi-highlight), -128em 126em var(--koi-highlight), -127em 126em var(--koi-highlight), -126em 126em var(--koi-highlight), -125em 126em var(--koi-highlight), -124em 126em var(--koi-highlight),
-    -132em 127em var(--koi-highlight), -131em 127em var(--koi-highlight), -130em 127em var(--koi-highlight), -129em 127em var(--koi-highlight), -128em 127em var(--koi-highlight), -127em 127em var(--koi-highlight), -126em 127em var(--koi-highlight), -125em 127em var(--koi-highlight), -124em 127em var(--koi-highlight)
+    -122em 118em var(--koi-light), -121em 118em var(--koi-light),
+    -124em 119em var(--koi-light), -123em 119em var(--koi-light), -122em 119em var(--koi-light), -121em 119em var(--koi-light), -120em 119em var(--koi-light),
+    -127em 120em var(--koi-main), -126em 120em var(--koi-highlight), -125em 120em var(--koi-highlight), -124em 120em var(--koi-highlight), -123em 120em var(--koi-light), -122em 120em var(--koi-light), -121em 120em var(--koi-light), -120em 120em var(--koi-light), -119em 120em var(--koi-main),
+    -127em 121em var(--koi-highlight), -126em 121em var(--koi-highlight), -125em 121em var(--koi-highlight), -124em 121em var(--koi-highlight), -123em 121em var(--koi-highlight), -122em 121em var(--koi-light), -121em 121em var(--koi-light), -120em 121em var(--koi-light), -119em 121em var(--koi-main),
+    -128em 122em var(--koi-highlight), -127em 122em var(--koi-highlight), -126em 122em var(--koi-highlight), -125em 122em var(--koi-highlight), -124em 122em var(--koi-highlight), -123em 122em var(--koi-highlight), -122em 122em var(--koi-light), -121em 122em var(--koi-light), -120em 122em var(--koi-light), -119em 122em var(--koi-main),
+    -130em 123em var(--koi-highlight), -129em 123em var(--koi-highlight), -128em 123em var(--koi-highlight), -127em 123em var(--koi-highlight), -126em 123em var(--koi-highlight), -125em 123em var(--koi-highlight), -124em 123em var(--koi-highlight), -123em 123em var(--koi-highlight), -122em 123em var(--koi-light), -121em 123em var(--koi-light), -120em 123em var(--koi-main),
+    -131em 124em var(--koi-main), -130em 124em var(--koi-highlight), -129em 124em var(--koi-highlight), -128em 124em var(--koi-highlight), -127em 124em var(--koi-highlight), -126em 124em var(--koi-highlight), -125em 124em var(--koi-highlight), -124em 124em var(--koi-highlight), -123em 124em var(--koi-highlight), -122em 124em var(--koi-main), -121em 124em var(--koi-main), -120em 124em var(--koi-dark),
+    -138em 125em var(--koi-main), -137em 125em var(--koi-main), -136em 125em var(--koi-main), -135em 125em var(--koi-dark), -134em 125em var(--koi-dark), -132em 125em var(--koi-main), -131em 125em var(--koi-highlight), -130em 125em var(--koi-highlight), -129em 125em var(--koi-highlight), -128em 125em var(--koi-highlight), -127em 125em var(--koi-highlight), -126em 125em var(--koi-highlight), -125em 125em var(--koi-highlight), -124em 125em var(--koi-highlight), -123em 125em var(--koi-main), -122em 125em var(--koi-main), -121em 125em var(--koi-dark), -120em 125em var(--koi-dark),
+    -140em 126em var(--koi-main), -139em 126em var(--koi-main), -138em 126em var(--koi-main), -137em 126em var(--koi-main), -136em 126em var(--koi-dark), -135em 126em var(--koi-dark), -134em 126em var(--koi-dark), -133em 126em var(--koi-main), -132em 126em var(--koi-main), -131em 126em var(--koi-main), -130em 126em var(--koi-highlight), -129em 126em var(--koi-highlight), -128em 126em var(--koi-highlight), -127em 126em var(--koi-highlight), -126em 126em var(--koi-highlight), -125em 126em var(--koi-highlight), -124em 126em var(--koi-highlight), -123em 126em var(--koi-main), -122em 126em var(--koi-main), -121em 126em var(--koi-dark),
+    -139em 127em var(--koi-dark), -138em 127em var(--koi-dark), -137em 127em var(--koi-dark), -136em 127em var(--koi-dark), -135em 127em var(--koi-dark), -134em 127em var(--koi-dark), -133em 127em var(--koi-dark), -132em 127em var(--koi-dark), -131em 127em var(--koi-main), -130em 127em var(--koi-highlight), -129em 127em var(--koi-highlight), -128em 127em var(--koi-highlight), -127em 127em var(--koi-highlight), -126em 127em var(--koi-highlight), -125em 127em var(--koi-highlight), -124em 127em var(--koi-highlight), -123em 127em var(--koi-main), -122em 127em var(--koi-main), -121em 127em var(--koi-dark)
     
     ;
 }
