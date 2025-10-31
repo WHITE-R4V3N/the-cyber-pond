@@ -68,6 +68,10 @@ a:hover {
 
 /* HEADER */
 
+hr {
+    color: var(--antiflash-white);
+}
+
 header {
     background: var(--panel);
     padding: 2vmin;
@@ -223,6 +227,7 @@ input[type="search"] {
     font-size: 1.05rem;
     font-weight: 700;
     color: var(--antiflash-white);
+    padding-top: 15px;
 }
 
 .desc {
