@@ -16,13 +16,12 @@
                 <h2>THE CYBER POND</h2>
                 <img class="sound-image" id="sound-image" src="images/music_off.png" onclick="toggle_mute()">
             </div>
+            <audio loop autoplay muted id="pond-audio" class="pond-audio">
+                <source src="sounds/pond_audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <script src="scripts/audio.js"></script>
         </header>
-        <audio loop autoplay muted id="pond-audio" class="pond-audio">
-            <source src="sounds/pond_audio.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
-        <script src="scripts/audio.js"></script>
-
         <main class="container">
             <div class="lock-screen" id="lock-screen">
                 <!-- NO BODY WILL FIND THE PASSWORD HERE: turtle -->
@@ -30,7 +29,7 @@
                     <div class="container">
                         <div class="turtle"></div>
                         <h2>THE CYBER POND</h2>
-                        <img class="sound-image" id="sound-image" src="images/music_off.png" onclick="toggle_mute()">
+                        <br>
                     </div>
                 </header>
                 <div class="page-overlay" id="page-overlay">
@@ -68,22 +67,22 @@
 
             <div class="project-cards">
                 <section class="grid" id="grid">
-                    <article class="card" data-title="5 Internet Safety Tips" data-tags="Tips,Cyber Security" data-date="2025-09-10">
+                    <article class="card" data-title="5 Internet Safety Tips" data-tags="Tips, Vulnerabilities" data-date="2025-09-10">
                         <div class="thumb" aria-hidden="true">
-                            <img src="images/attacker-execute-malware-through-a-script.png"/>
+                            <img src="images/jsp1/owasp_juice_shop.png"/>
                         </div>
                         <div class="card-body">
                             <div class="card-art"></div>
-                            <div class="title">5 Internet Safety Tips</div>
+                            <div class="title">OWASP Juice Shop Part 1</div>
                             <hr>
-                            <p class="desc">Most cyber attacks don't need high-tech skills. Just people making small mistakes with big consequences.</p>
+                            <p class="desc">Have you wanted to learn how to hack? Wanting hands on practice with a vulnerable web application? Check it out!<br><br>OWASP Juice Shop Part 1</p>
                             <br/>
                             <div class="chips">
                                 <span class="chip">Tips</span>
-                                <span class="chip">Cyber Security</span>
+                                <span class="chip">Vulnerabilities</span>
                             </div>
                             <div class="actions">
-                                <a href="https://white-r4v3n.github.io/the-cyber-pond/posts/5_security_tips.html">Continue Reading ></a>
+                                <a href="https://white-r4v3n.github.io/the-cyber-pond/posts/JuiceShopPart1.html">Continue Reading ></a>
                             </div>
                         </div>
                     </article>
@@ -97,7 +96,7 @@
                 <p>&copy; 2025 Emma Gillespie. All rights reserved.</p>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/emma-gillespie-115526297/" target="_blank">LinkedIn</a>
-                    <a href="https://www.youtube.com/@yeolsoe-ui_segye" target="_blank">Youtube</a>
+                    <a href="https://www.youtube.com/@duck-in-shell" target="_blank">Youtube</a>
                     <a href="https://github.com/WHITE-R4V3N" target="_blank">GitHub</a>
                 </div>
             </div>

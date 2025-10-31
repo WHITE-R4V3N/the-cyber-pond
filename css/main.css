@@ -242,6 +242,18 @@ input[type="search"] {
     display: none;
 }
 
+.blog-introduction {
+    text-align: left;
+}
+
+.blog-body {
+    text-align: left;
+}
+
+.blog-conclusion {
+    text-align: left;
+}
+
 /* FOOTER */
 footer {
     background: var(--glaucous);

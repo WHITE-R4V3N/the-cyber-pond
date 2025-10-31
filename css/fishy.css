@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fish-light: #7692bcff;
+    --black: #292421;
+}
+
+.fishy {
+    margin: 0;
+    top: 0;
+    font-size: .45vmin;
+    height: 1em;
+    width: 1em;
+    animation-name: koi-swim;
+    box-shadow: 
+    0em 0em var(--black)
+    ;
+}
